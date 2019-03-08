@@ -106,6 +106,16 @@ input, select, textarea {
 		background-image: url("images/overlay.png"), linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
 	}
 
+	
+	body {
+		background-color: #935d8c;
+		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #C2E1C2 	 15%, #80AB82	 85%);
+		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #C2E1C2 	 15%, #80AB82	 85%);
+		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #C2E1C2 	 15%, #80AB82	 85%);
+		background-image: url("images/overlay.png"), linear-gradient(45deg, #C2E1C2 	 15%, #80AB82	 85%);
+	}
+
+
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
 			-moz-animation: none !important;
 			-webkit-animation: none !important;
@@ -3989,3 +3999,85 @@ input, select, textarea {
 			max-height: 15em;
 			opacity: 1;
 		}
+
+.study_boxes {
+	margin: auto;
+	width: 100%;
+	text-align: center;
+}
+
+.study{
+	width:45%;
+	height:100px;
+	margin: 20px;
+	transition: transform .2s;
+
+}
+
+.press{
+	vertical-align: top;
+	width:31%;
+	height:225px;
+	margin: 10px;
+}
+
+.zoombox {
+	display: inline-block;
+	transition: transform .2s;
+
+}
+
+.zoombox:hover {
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1); 
+}
+ 
+.red{
+	background:#E1E6E1;¡
+}
+.green{
+	background:#E1E6E1;
+}
+
+.study_title {
+  font-weight: bold;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 30%;
+  transform: translateY(-50%);
+}
+
+.study_content {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 40%;
+  transform: translateY(-50%);
+}
+
+.press_title {
+  font-weight: bold;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 20%;
+  transform: translateY(-50%);
+}
+
+.press_content {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 40%;
+  transform: translateY(-50%);
+}
+
+.study_description {
+	display: none;
+}
